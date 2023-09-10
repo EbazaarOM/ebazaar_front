@@ -1,0 +1,16 @@
+{
+  "writeReview": "Write a Review",
+  "reviewWriteCopy": "By evaluating this product you will automatically evaluate the farmer as well",
+  "reviewWriteCopy2": "Rating a product is mandatory action",
+  "productName": "Product Title",
+  "farmer": "Farmer",
+  "valueByStar": "Rating with Stars",
+  "writeComment": "Write a Comment",
+  "reviewWriteSuccess": "Review has been successfully submitted",
+  "error": "Error occured",
+  "addComment": "Add Comment",
+  "seeAllComments": "See all comments",
+  "noComments": "No Comments",
+  "write": "Write",
+  "addCommentCopy": "Your comment will appear after confirmation"
+}

@@ -1,0 +1,20 @@
+export const config = {
+  register: 'accounts/user_types/client/register',
+  reset_password: 'auth/reset_password',
+  create_password: 'auth/create_password',
+  confirm_code: 'auth/confirm_code',
+  request_code: 'auth/request_code',
+  confirm_client: 'accounts/confirm_client',
+  login: 'auth/login_client',
+  external_login: 'auth/external_login',
+  profile: 'accounts/profile',
+  profile_update: 'accounts/user_types/client/update',
+  addresses: 'addresses',
+  phones: 'phones',
+  add_phone: 'phones/add_phone',
+  confirm_phone: 'phones/confirm_phone',
+  add_email: 'accounts/add_email',
+  confirm_email: 'accounts/confirm_email',
+  change_password: 'auth/change_password',
+  refresh_token: 'auth/refresh_token'
+};

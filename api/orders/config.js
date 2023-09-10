@@ -1,0 +1,20 @@
+export const config = {
+  cart: 'carts',
+  cart_add: 'carts/add',
+  cart_add_multiple: 'carts/add_multiple',
+  cart_remove: 'carts/remove',
+  cart_set_quantity: 'carts/set_quantity',
+  wishlist: 'wishlists',
+  wishlist_codes: 'wishlists/codes',
+  wishlist_add: 'wishlists/add',
+  wishlist_add_multiple: 'wishlists/add_multiple',
+  wishlist_remove: 'wishlists/remove',
+  checkout_single: 'orders/checkout_single',
+  checkout_cart: 'orders/checkout_cart',
+  orders: 'orders',
+  order_get_by_id: 'orders/get_by_id',
+  order_get_by_code: 'orders/get_by_code',
+  invoice: 'orders/invoice',
+  farmers: 'farmers',
+  cart_related: 'carts/related'
+};

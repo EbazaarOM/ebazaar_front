@@ -1,0 +1,23 @@
+{
+  "New": "ახალი",
+  "Pending": "მიმდინარე",
+  "Declined": "უარყოფილი",
+  "AwaitingFulfillment": "გროვდება",
+  "CancelledByAvailability": "გაუქმებული",
+  "Gathered": "წამოღებულია",
+  "Ungathered": "არ შეგროვდა",
+  "CancelledByGathering": "CancelledByGathering",
+  "Collected": "შეგროვდა",
+  "PartiallyCollected": "ნაწილობრივ შეგროვდა",
+  "CancelledByCollecting": "გაუქმებული",
+  "Shipping": "გზაშია",
+  "Delivered": "ჩაბარებულია",
+  "PartiallyDelivered": "ნაწილობრივ ჩაბარებული",
+  "Returned": "დაბრუნებული",
+  "NotDelivered": "ვერ ჩაბარდა",
+  "Closed": "დასრულებული",
+  "PartiallyReturned": "ნაწილობრივ დაბრუნებული",
+  "Failed": "წარუმატებელი",
+  "Refunded": "ჩაბარებულია",
+  "Cancelled": "გაუქმებული"
+}

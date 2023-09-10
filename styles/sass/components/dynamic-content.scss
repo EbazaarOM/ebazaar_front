@@ -1,0 +1,26 @@
+.dynamic-content {
+  p {
+    min-height: calc(1.8rem * var(--ratio));
+    @media (max-width: 768px) {
+      min-height: calc(2.8rem * var(--ratio));
+    }
+  }
+  h6 {
+    @apply text-2-0 font-rm;
+    @media (max-width: 768px) {
+      @apply text-3-0 font-rm;
+    }
+  }
+  h5 {
+    @apply text-2-2 font-rm;
+    @media (max-width: 768px) {
+      @apply text-3-2;
+    }
+  }
+  h4 {
+    @apply text-2-4 font-rm;
+    @media (max-width: 768px) {
+      @apply text-3-4;
+    }
+  }
+}

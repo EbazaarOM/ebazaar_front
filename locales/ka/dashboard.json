@@ -1,0 +1,32 @@
+{
+  "personalInfo": "პირადი მონაცემები",
+  "changePassword": "პაროლის შეცვლა",
+  "orderHistory": "შეკვეთების ისტორია",
+  "myFarmers": "ჩემი ფერმერები",
+  "myReviews": "ჩემი შეფასებები",
+  "notifications": "შეტყობინებები",
+  "myNotifications": "ჩემი შეტყობინებები",
+
+  "addPhoneNumber": "ნომრის დამატება",
+  "addAddress": "მისამართის დამატება",
+  "addEmail": "ელ-ფოსტის დამატება",
+  "addPassword": "დაამატე პაროლი",
+  "selectMainAddress": "მონიშნე მთავარი მისამართი",
+  "selectMainPhone": "მონიშნე მთავარი ნომერი",
+  "username": "მომხმარებლის სახელი",
+  "userID": "მომხმარებლის ID",
+  "profile": "პროფილი",
+  "changePasswordCopy": "ძლიერი პაროლის შესაქმნელად გამოიყენეთ 8 სიმობოლოზე მეტი ( დიდი ასოები,პატარა ასოები და ციფრები )",
+  "currentPassword": "მიმდინარე პაროლი",
+  "newPassword": "ახალი პაროლი",
+  "confirmNewPassword": "გაიმეორე ახალი პაროლი",
+  "identificationNumber": "საიდენტიფიკაციო ნომერი",
+
+  "personalInfoSaveDialogText": "ნამდვილად გსურთ განახლებული პირადი მონაცემების შენახვა?",
+  "successChangeText": "პირადი მონაცემები წარმატებით შეიცვალა",
+  "passwordSuccessfullyChanged": "პაროლი წარმატებით შეიცვალა",
+
+  "passwordSuccessfullyAdded": "პაროლი წარმატებით დაემატა",
+  "next": "შემდეგი",
+  "back": "უკან დაბრუნება"
+}

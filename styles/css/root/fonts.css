@@ -1,0 +1,31 @@
+:root {
+  --HelveticaNeueLTGEOW82-25UltLt: 'HelveticaNeueLTGEOW82-25UltLt';
+  --HelveticaNeueLTGEOW82-45Lt: 'HelveticaNeueLTGEOW82-45Lt';
+  --HelveticaNeueLTGEOW82-35Th: 'HelveticaNeueLTGEOW82-35Th';
+  --HelveticaNeueLTGEOW82-45Lt-Regular: 'HelveticaNeueLTGEOW82-45Lt-Regular';
+  --HelveticaNeueLTGEOW82-55Rm: 'HelveticaNeueLTGEOW82-55Rm';
+  --HelveticaNeueLTGEOW82-65Md: 'HelveticaNeueLTGEOW82-65Md';
+  --HelveticaNeueLTGEOW82-75Bd: 'HelveticaNeueLTGEOW82-75Bd';
+  --ratio: 1.52857;
+}
+
+html {
+  --ulTt: var(--HelveticaNeueLTGEOW82-25UltLt);
+  --th: var(--HelveticaNeueLTGEOW82-35Th);
+  --lt: var(--HelveticaNeueLTGEOW82-45Lt);
+  --regular: var(--HelveticaNeueLTGEOW82-45Lt-Regular);
+  --rm: var(--HelveticaNeueLTGEOW82-55Rm);
+  --md: var(--HelveticaNeueLTGEOW82-65Md);
+  --bd: var(--HelveticaNeueLTGEOW82-75Bd);
+  --arR: var(--ARArchyRegular);
+  --arRsm: var(--ARArchySemiBold);
+  --arRB: var(--ArchyEDTBold);
+}
+
+html .upper {
+  font-feature-settings: 'case' on;
+}
+
+html[lang='en'] .upper {
+  text-transform: uppercase;
+}

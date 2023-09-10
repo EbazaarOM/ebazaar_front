@@ -1,0 +1,23 @@
+{
+  "New": "New",
+  "Pending": "Pending",
+  "Declined": "Declined",
+  "AwaitingFulfillment": "Fulfillment",
+  "CancelledByAvailability": "CancelledByAvailability",
+  "Gathered": "Picked up",
+  "Ungathered": "Ungathered",
+  "CancelledByGathering": "CancelledByGathering",
+  "Collected": "Collected",
+  "PartiallyCollected": "PartiallyCollected",
+  "CancelledByCollecting": "CancelledByCollecting",
+  "Shipping": "Shipped",
+  "Delivered": "Delivered",
+  "PartiallyDelivered": "Partially Delivered",
+  "Returned": "Returned",
+  "NotDelivered": "NotDelivered",
+  "Closed": "Closed",
+  "PartiallyReturned": "PartiallyReturned",
+  "Failed": "Failed",
+  "Refunded": "Refunded",
+  "Cancelled": "Cancelled"
+}

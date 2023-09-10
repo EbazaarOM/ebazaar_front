@@ -1,0 +1,64 @@
+.react-pagination {
+  @media (max-width: 768px) {
+    @apply w-full;
+  }
+  .pagination {
+    @apply flex items-center font-rm text-2-0;
+    @media (max-width: 768px) {
+      @apply text-3-0 justify-between;
+    }
+    .disabled {
+      @apply opacity-60;
+      pointer-events: none;
+    }
+    li {
+      @apply mr-2-0;
+      @media only screen and (max-width: 768px) {
+        @apply mr-1-0;
+      }
+      &:last-child {
+        @apply mr-0;
+      }
+      a {
+        @apply duration-200 w-6-0 h-6-0 rounded-full flex items-center justify-center;
+        @media only screen and (max-width: 768px) {
+          @apply w-7-4 h-7-4;
+        }
+      }
+      &.break {
+        @media only screen and (max-width: 768px) {
+          @apply hidden;
+        }
+      }
+      &.active {
+        a {
+          @apply bg-blue text-white;
+        }
+      }
+      &:not(:first-child):not(:last-child):not(.active) {
+        &:hover {
+          a {
+            @apply bg-blue text-white;
+          }
+        }
+      }
+    }
+  }
+  &--small {
+    .pagination {
+      @apply text-1-6;
+      @media only screen and (max-width: 768px) {
+        @apply text-2-6;
+      }
+      li {
+        @apply mr-1-0;
+        a {
+          @apply w-4-0 h-4-0;
+          @media only screen and (max-width: 768px) {
+            @apply w-7-4 h-7-4;
+          }
+        }
+      }
+    }
+  }
+}

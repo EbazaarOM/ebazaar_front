@@ -1,0 +1,18 @@
+/*! purgecss start ignore */
+
+/* Base */
+@import 'base/config';
+@import 'base/typography';
+@import 'base/global';
+@import 'base/overrides';
+
+@import 'components/pagination';
+@import 'components/calendar';
+@import 'components/base';
+@import 'components/icons';
+@import 'components/swiper';
+@import 'components/price-range';
+@import 'components/dynamic-content';
+
+@import 'custom';
+/*! purgecss end ignore */

@@ -1,0 +1,19 @@
+.gradient-instagram {
+  svg {
+    path {
+      fill: currentColor;
+    }
+  }
+}
+
+.gradient-instagram {
+  &.colored {
+    &:hover {
+      svg {
+        path {
+          fill: url(#paint0_linear);
+        }
+      }
+    }
+  }
+}

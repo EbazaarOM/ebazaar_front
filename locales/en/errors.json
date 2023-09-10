@@ -1,0 +1,9 @@
+{
+  "error": "error",
+  "required": "Required",
+  "not_valid": "Not valid",
+  "used": "Used",
+  "expired": "Expired",
+  "locked_out": "Locked",
+  "sms_not_send_phone": "The code could not be sent to the specified phone number"
+}

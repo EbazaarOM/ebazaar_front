@@ -1,0 +1,5 @@
+:root {
+  --default-transition: 200ms ease-in-out;
+  --default-timing-func: ease-in-out;
+  --default-transition-secondary: 100ms ease-in-out;
+}

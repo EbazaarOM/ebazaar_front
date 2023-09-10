@@ -1,0 +1,10 @@
+:root {
+  --header-size: 14rem;
+  --toolbar-size: 17rem;
+}
+@media only screen and (min-width: 769px) {
+  :root {
+    --header-size: 9.9rem;
+    --toolbar-size: 11.1rem;
+  }
+}

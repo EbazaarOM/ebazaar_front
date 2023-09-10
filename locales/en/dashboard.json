@@ -1,0 +1,32 @@
+{
+  "personalInfo": "Personal Infornation",
+  "changePassword": "Change Password",
+  "orderHistory": "Order History",
+  "myFarmers": "My Farmers",
+  "myReviews": "My Reviews",
+  "notifications": "Notifications",
+  "myNotifications": "My Notifications",
+
+  "addPhoneNumber": "Add Phone Number",
+  "addAddress": "Add Address",
+  "addEmail": "Add Email",
+  "addPassword": "Add Password",
+  "selectMainAddress": "Mark a primary Address",
+  "selectMainPhone": "Mark a primary mobile number",
+  "username": "Username",
+  "userID": "User ID",
+  "profile": "Profile",
+  "changePasswordCopy": "For strong password, we recommend you use 8 or more characters, including a mixture of letters, numbers and symbols",
+  "currentPassword": "Current Password",
+  "newPassword": "New Password",
+  "confirmNewPassword": "Confirm New Password",
+  "identificationNumber": "Identification Number",
+
+  "personalInfoSaveDialogText": "Confirm changes to your account information?",
+  "successChangeText": "Personal information has been successfully changed",
+  "passwordSuccessfullyChanged": "Password successfully changed",
+
+  "passwordSuccessfullyAdded": "Password has been successfully added",
+  "next": "next",
+  "back": "Back"
+}

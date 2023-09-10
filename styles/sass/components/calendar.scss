@@ -1,0 +1,95 @@
+.calendar-wrapper {
+  --border-width: 0.5rem;
+  @apply text-1-4 text-blue font-rm;
+  @media only screen and (max-width: 768px) {
+    @apply text-3-2;
+  }
+
+  .react-calendar {
+    &__navigation {
+      @apply justify-between border-b border-grey-200 px-2-0 py-1-0;
+      @media only screen and (max-width: 768px) {
+        @apply mb-2-0 py-2-0 px-3-0;
+      }
+      &__label {
+        flex-grow: 0 !important;
+        border-radius: 5rem;
+        @apply px-2-0 text-1-6 py-0-5;
+        @media only screen and (max-width: 768px) {
+          @apply text-3-2;
+        }
+        &:hover {
+          @apply bg-blue text-white;
+        }
+      }
+    }
+    &__viewContainer {
+      @apply px-1-2 pb-1-0;
+    }
+
+    &__tile {
+      border: var(--border-width) solid white;
+      border-radius: 5rem;
+      padding-top: calc(100% / 14 - var(--border-width));
+      padding-bottom: calc(100% / 14 - var(--border-width));
+      line-height: 0;
+      @apply text-black;
+
+      &:hover {
+        @apply bg-yellow text-white;
+      }
+      $self: &;
+      &--active {
+        @apply bg-yellow-200;
+        &:not(.react-calendar__tile--rangeStart):not(.react-calendar__tile--rangeEnd) {
+          border-left: none;
+          border-right: none;
+          border-radius: 0;
+        }
+      }
+      &--rangeStart,
+      &--rangeEnd {
+        @apply bg-yellow text-white;
+      }
+      &--rangeStart {
+        &:not(.react-calendar__tile--rangeBothEnds) {
+          border-right: none;
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+      }
+      &--rangeEnd {
+        &:not(.react-calendar__tile--rangeBothEnds) {
+          border-left: none;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+        }
+      }
+    }
+    &__month-view {
+      &__weekdays {
+        &__weekday {
+          border-left: var(--border-width) solid white;
+          border-right: var(--border-width) solid white;
+          abbr {
+            text-decoration: none;
+          }
+        }
+        @apply font-md pt-1-6 pb-0-5;
+      }
+      &__days {
+        &__day {
+          &--neighboringMonth {
+            @apply opacity-50;
+          }
+        }
+      }
+    }
+    &__century-view {
+      &__decades__decade {
+        flex-basis: 50% !important;
+        max-width: 50% !important;
+      }
+    }
+  }
+}

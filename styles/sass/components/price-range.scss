@@ -1,0 +1,35 @@
+.price-range {
+  --thumbRadius: 0.8rem;
+  --trackHeight: 1rem;
+  --offset: 0.3rem;
+  @media (max-width: 768px) {
+    --thumbRadius: 2.3rem;
+    --trackHeight: 2.3rem;
+    --offset: 1.3rem;
+  }
+  @apply relative;
+  max-width: 100%;
+  &__track {
+    @apply rounded-10-0;
+    height: var(--trackHeight);
+  }
+  &__track-0,
+  &__track-2 {
+    @apply bg-body-bg;
+  }
+  &__track-1 {
+    @apply bg-lightblue-200 z-1;
+  }
+  &__thumb {
+    @apply bg-blue rounded-full;
+    width: calc(2 * var(--thumbRadius));
+    height: calc(2 * var(--thumbRadius));
+    top: calc(-1 * var(--offset));
+  }
+  &__thumb-0 {
+    transform: translateX(-calc(var(--thumbRadius) - var(--offset)));
+  }
+  &__thumb-1 {
+    transform: translateX(calc(var(--thumbRadius) - var(--offset)));
+  }
+}
